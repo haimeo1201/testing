@@ -40,3 +40,5 @@ bool isValidDate(int year, int month, int day)
     }
     return true;
 }
+
+#endif
