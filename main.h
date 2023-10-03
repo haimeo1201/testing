@@ -22,7 +22,7 @@ bool isLeapYear(int     year)
 
 bool isValidDate(int year, int month, int day)
 {
-    if (year < 0 || month < 1 || month > 12 || day < 1 || day > 31) return false;
+    if (year < 1 || month < 1 || month > 12 || day < 1 || day > 31 || year > 9999) return false;
     if (month == 2)
     {
         if (isLeapYear(year))
